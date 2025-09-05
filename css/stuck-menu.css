@@ -1,0 +1,19 @@
+/* Stuck menu styles
+========================================================*/
+.isStuck {
+  z-index: 999;
+  position: fixed;
+  text-align: center;
+}
+.isStuck #search {
+  display: none;
+}
+.isStuck nav {
+  float: none;
+  display: inline-block;
+}
+@media only screen and (max-width: 979px) {
+  .isStuck {
+    display: none !important;
+  }
+}

@@ -1,0 +1,10 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /dossier sans titre/
+Disallow: /bat/
+Disallow: /cgi-bin/
+Disallow: /stellar/
+Disallow: /wow/
+Disallow: /hplogo.gif
